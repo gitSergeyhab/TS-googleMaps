@@ -136889,7 +136889,9 @@ var User =
 /** @class */
 function () {
   function User() {
-    this.color = 'black';
+    this.color
+    /**:string */
+    = 'black';
     this.name = faker_1.default.name.firstName();
     this.location = {
       lat: parseFloat(faker_1.default.address.latitude()),

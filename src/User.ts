@@ -8,7 +8,7 @@ export class User implements Mappable {
         lat: number,
         lng: number,
     };
-    color = 'black';
+    color/**:string */ = 'black';
 
     constructor(){
         this.name = faker.name.firstName();
